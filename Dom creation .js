@@ -1,0 +1,10 @@
+var head = document.createElement("para");
+var boby = document.createTextNode("Login Page");
+head.appendChild(boby);
+document.body.appendChild(head);
+var box = document.createElement("input");
+var btn = document.createElement("button");
+var clk = document.createTextNode("Click");
+btn.appendChild(clk);
+document.body.appendChild(box);
+document.body.appendChild(btn);
